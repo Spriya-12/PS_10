@@ -17,10 +17,10 @@ class ImageStitchingNode(Node):
         self.subscribers = []
         
         camera_topics = [
-            "/overhead_camera/overhead_camera1/image_raw",
-            "/overhead_camera/overhead_camera2/image_raw",
+            "/overhead_camera/overhead_camera4/image_raw",
             "/overhead_camera/overhead_camera3/image_raw",
-            "/overhead_camera/overhead_camera4/image_raw"
+            "/overhead_camera/overhead_camera2/image_raw",
+            "/overhead_camera/overhead_camera1/image_raw"
         ]
         
         for i, topic in enumerate(camera_topics):
